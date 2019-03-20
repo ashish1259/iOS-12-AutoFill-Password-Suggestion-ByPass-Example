@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F6FA012242D9A30060DC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6FA002242D9A30060DC6B /* AppDelegate.swift */; };
+		80F6FA032242D9A30060DC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6FA022242D9A30060DC6B /* ViewController.swift */; };
+		80F6FA062242D9A30060DC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F6FA042242D9A30060DC6B /* Main.storyboard */; };
+		80F6FA082242D9A50060DC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F6FA072242D9A50060DC6B /* Assets.xcassets */; };
+		80F6FA0B2242D9A50060DC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F6FA092242D9A50060DC6B /* LaunchScreen.storyboard */; };
+		80F6FA162242D9A50060DC6B /* Autofill_Password_BypassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6FA152242D9A50060DC6B /* Autofill_Password_BypassTests.swift */; };
+		80F6FA212242D9A50060DC6B /* Autofill_Password_BypassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6FA202242D9A50060DC6B /* Autofill_Password_BypassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80F6FA122242D9A50060DC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F6F9F52242D9A30060DC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F6F9FC2242D9A30060DC6B;
+			remoteInfo = "Autofill-Password-Bypass";
+		};
+		80F6FA1D2242D9A50060DC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F6F9F52242D9A30060DC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F6F9FC2242D9A30060DC6B;
+			remoteInfo = "Autofill-Password-Bypass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80F6F9FD2242D9A30060DC6B /* Autofill-Password-Bypass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autofill-Password-Bypass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F6FA002242D9A30060DC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80F6FA022242D9A30060DC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80F6FA052242D9A30060DC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80F6FA072242D9A50060DC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80F6FA0A2242D9A50060DC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80F6FA0C2242D9A50060DC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F6FA112242D9A50060DC6B /* Autofill-Password-BypassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill-Password-BypassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F6FA152242D9A50060DC6B /* Autofill_Password_BypassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_Password_BypassTests.swift; sourceTree = "<group>"; };
+		80F6FA172242D9A50060DC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F6FA1C2242D9A50060DC6B /* Autofill-Password-BypassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autofill-Password-BypassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F6FA202242D9A50060DC6B /* Autofill_Password_BypassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autofill_Password_BypassUITests.swift; sourceTree = "<group>"; };
+		80F6FA222242D9A50060DC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F6F9FA2242D9A30060DC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA0E2242D9A50060DC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA192242D9A50060DC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F6F9F42242D9A30060DC6B = {
+			isa = PBXGroup;
+			children = (
+				80F6F9FF2242D9A30060DC6B /* Autofill-Password-Bypass */,
+				80F6FA142242D9A50060DC6B /* Autofill-Password-BypassTests */,
+				80F6FA1F2242D9A50060DC6B /* Autofill-Password-BypassUITests */,
+				80F6F9FE2242D9A30060DC6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80F6F9FE2242D9A30060DC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F6F9FD2242D9A30060DC6B /* Autofill-Password-Bypass.app */,
+				80F6FA112242D9A50060DC6B /* Autofill-Password-BypassTests.xctest */,
+				80F6FA1C2242D9A50060DC6B /* Autofill-Password-BypassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F6F9FF2242D9A30060DC6B /* Autofill-Password-Bypass */ = {
+			isa = PBXGroup;
+			children = (
+				80F6FA002242D9A30060DC6B /* AppDelegate.swift */,
+				80F6FA022242D9A30060DC6B /* ViewController.swift */,
+				80F6FA042242D9A30060DC6B /* Main.storyboard */,
+				80F6FA072242D9A50060DC6B /* Assets.xcassets */,
+				80F6FA092242D9A50060DC6B /* LaunchScreen.storyboard */,
+				80F6FA0C2242D9A50060DC6B /* Info.plist */,
+			);
+			path = "Autofill-Password-Bypass";
+			sourceTree = "<group>";
+		};
+		80F6FA142242D9A50060DC6B /* Autofill-Password-BypassTests */ = {
+			isa = PBXGroup;
+			children = (
+				80F6FA152242D9A50060DC6B /* Autofill_Password_BypassTests.swift */,
+				80F6FA172242D9A50060DC6B /* Info.plist */,
+			);
+			path = "Autofill-Password-BypassTests";
+			sourceTree = "<group>";
+		};
+		80F6FA1F2242D9A50060DC6B /* Autofill-Password-BypassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80F6FA202242D9A50060DC6B /* Autofill_Password_BypassUITests.swift */,
+				80F6FA222242D9A50060DC6B /* Info.plist */,
+			);
+			path = "Autofill-Password-BypassUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F6F9FC2242D9A30060DC6B /* Autofill-Password-Bypass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F6FA252242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-Bypass" */;
+			buildPhases = (
+				80F6F9F92242D9A30060DC6B /* Sources */,
+				80F6F9FA2242D9A30060DC6B /* Frameworks */,
+				80F6F9FB2242D9A30060DC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autofill-Password-Bypass";
+			productName = "Autofill-Password-Bypass";
+			productReference = 80F6F9FD2242D9A30060DC6B /* Autofill-Password-Bypass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80F6FA102242D9A50060DC6B /* Autofill-Password-BypassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F6FA282242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-BypassTests" */;
+			buildPhases = (
+				80F6FA0D2242D9A50060DC6B /* Sources */,
+				80F6FA0E2242D9A50060DC6B /* Frameworks */,
+				80F6FA0F2242D9A50060DC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80F6FA132242D9A50060DC6B /* PBXTargetDependency */,
+			);
+			name = "Autofill-Password-BypassTests";
+			productName = "Autofill-Password-BypassTests";
+			productReference = 80F6FA112242D9A50060DC6B /* Autofill-Password-BypassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80F6FA1B2242D9A50060DC6B /* Autofill-Password-BypassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F6FA2B2242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-BypassUITests" */;
+			buildPhases = (
+				80F6FA182242D9A50060DC6B /* Sources */,
+				80F6FA192242D9A50060DC6B /* Frameworks */,
+				80F6FA1A2242D9A50060DC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80F6FA1E2242D9A50060DC6B /* PBXTargetDependency */,
+			);
+			name = "Autofill-Password-BypassUITests";
+			productName = "Autofill-Password-BypassUITests";
+			productReference = 80F6FA1C2242D9A50060DC6B /* Autofill-Password-BypassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F6F9F52242D9A30060DC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ashish Verma";
+				TargetAttributes = {
+					80F6F9FC2242D9A30060DC6B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					80F6FA102242D9A50060DC6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 80F6F9FC2242D9A30060DC6B;
+					};
+					80F6FA1B2242D9A50060DC6B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 80F6F9FC2242D9A30060DC6B;
+					};
+				};
+			};
+			buildConfigurationList = 80F6F9F82242D9A30060DC6B /* Build configuration list for PBXProject "Autofill-Password-Bypass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80F6F9F42242D9A30060DC6B;
+			productRefGroup = 80F6F9FE2242D9A30060DC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F6F9FC2242D9A30060DC6B /* Autofill-Password-Bypass */,
+				80F6FA102242D9A50060DC6B /* Autofill-Password-BypassTests */,
+				80F6FA1B2242D9A50060DC6B /* Autofill-Password-BypassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F6F9FB2242D9A30060DC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6FA0B2242D9A50060DC6B /* LaunchScreen.storyboard in Resources */,
+				80F6FA082242D9A50060DC6B /* Assets.xcassets in Resources */,
+				80F6FA062242D9A30060DC6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA0F2242D9A50060DC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA1A2242D9A50060DC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F6F9F92242D9A30060DC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6FA032242D9A30060DC6B /* ViewController.swift in Sources */,
+				80F6FA012242D9A30060DC6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA0D2242D9A50060DC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6FA162242D9A50060DC6B /* Autofill_Password_BypassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F6FA182242D9A50060DC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6FA212242D9A50060DC6B /* Autofill_Password_BypassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80F6FA132242D9A50060DC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F6F9FC2242D9A30060DC6B /* Autofill-Password-Bypass */;
+			targetProxy = 80F6FA122242D9A50060DC6B /* PBXContainerItemProxy */;
+		};
+		80F6FA1E2242D9A50060DC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F6F9FC2242D9A30060DC6B /* Autofill-Password-Bypass */;
+			targetProxy = 80F6FA1D2242D9A50060DC6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80F6FA042242D9A30060DC6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F6FA052242D9A30060DC6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80F6FA092242D9A50060DC6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F6FA0A2242D9A50060DC6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F6FA232242D9A50060DC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80F6FA242242D9A50060DC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F6FA262242D9A50060DC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-Bypass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-Bypass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80F6FA272242D9A50060DC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-Bypass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-Bypass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80F6FA292242D9A50060DC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-BypassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-BypassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill-Password-Bypass.app/Autofill-Password-Bypass";
+			};
+			name = Debug;
+		};
+		80F6FA2A2242D9A50060DC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-BypassTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-BypassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autofill-Password-Bypass.app/Autofill-Password-Bypass";
+			};
+			name = Release;
+		};
+		80F6FA2C2242D9A50060DC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-BypassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-BypassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autofill-Password-Bypass";
+			};
+			name = Debug;
+		};
+		80F6FA2D2242D9A50060DC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGLH8NP5FU;
+				INFOPLIST_FILE = "Autofill-Password-BypassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ash.Autofill-Password-BypassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autofill-Password-Bypass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F6F9F82242D9A30060DC6B /* Build configuration list for PBXProject "Autofill-Password-Bypass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6FA232242D9A50060DC6B /* Debug */,
+				80F6FA242242D9A50060DC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F6FA252242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-Bypass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6FA262242D9A50060DC6B /* Debug */,
+				80F6FA272242D9A50060DC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F6FA282242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-BypassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6FA292242D9A50060DC6B /* Debug */,
+				80F6FA2A2242D9A50060DC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F6FA2B2242D9A50060DC6B /* Build configuration list for PBXNativeTarget "Autofill-Password-BypassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F6FA2C2242D9A50060DC6B /* Debug */,
+				80F6FA2D2242D9A50060DC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F6F9F52242D9A30060DC6B /* Project object */;
+}
